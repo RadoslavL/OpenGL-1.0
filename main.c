@@ -132,6 +132,7 @@ int main(){
       if(rotationy < 0.0f){
          rotationy = 360.0f + rotationy;
       }
+      printf("%f\n", rotationy);
    }
    return 0;
 }
